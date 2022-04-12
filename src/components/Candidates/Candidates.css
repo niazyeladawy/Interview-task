@@ -1,0 +1,29 @@
+.Candidates{
+    background: linear-gradient(to bottom, #4f52d3 50%, #fff 50%);
+
+}
+.Candidates h2{
+    position: relative;
+}
+.Candidates h2::after{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #1f211e;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Candidates .alice-carousel__prev-btn-item, .Candidates .alice-carousel__next-btn-item {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Candidates .alice-carousel__prev-btn-item{
+    left: -40px; 
+}
+.Candidates .alice-carousel__next-btn-item{
+    right: -40px;
+}

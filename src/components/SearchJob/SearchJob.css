@@ -1,0 +1,18 @@
+.search__job{
+    position: relative;
+    top: -47px;
+}
+.search__job .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color: #fff !important;
+    background-color: #000 !important;
+}
+.search__job .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #000 !important;
+    background-color: #fff !important;
+}
+.search__job .find__job .col-md-3{
+    border-left: 1px solid #ededed;
+}
+ .search__job__button{
+    padding: 22px 0 !important;
+}

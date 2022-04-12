@@ -1,0 +1,52 @@
+.border__main{
+    border: 1px solid #ededed !important;
+}
+.bg-twitter{
+    background-color: #3ebff6;
+}
+.JobTypes i{
+    color: var(--main-color);
+}
+.JobTypes .col-md-4{
+    border: 1px solid #ededed;
+}
+.JobTypes .col-md-4:hover{
+    cursor: pointer;
+    background-color: var(--main-color);
+    color: #fff !important;
+    transition: .5s;
+}
+.JobTypes .col-md-4:hover i{
+    color:#fff;
+    transition: .5s;
+}
+.jobtypes__item__header{
+    border-bottom: 1px solid #ededed;
+}
+.jobtypes__item__header i{
+    color: #fff;
+    border-right: 1px solid #ededed;
+}
+.JobTypes .input__div{
+    border: 1px solid #ededed;
+}
+.JobTypes .input__div i{
+    color: #fff;
+}
+.JobTypes .input__div input{
+    color: #fff;
+}
+.JobTypes .input__div .input__div input::placeholder{
+    color: #fff;
+}
+.JobTypes form button{
+    background-color: var(--main-color);
+    color: #fff;
+    padding:10px   0 !important;
+}
+.JobTypes{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.Jobs .css-1ujnqem-MuiTabs-root{
+    background-color:#f8f9fb ;
+}
+.Jobs .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    background-color: #fff;
+    color: #000;
+    margin: 10px 0 0 20px;
+}
+.Jobs .jobitem{
+    border-bottom: 1px solid #ededed;
+}
+
+.Jobs .maincontent{
+    border: 1px solid #ededed ;
+}

@@ -1,0 +1,27 @@
+.featured__main{
+
+}
+.FeaturedJobs .carousel-caption{
+    position: static;
+    color: #000;
+    text-align: left;
+}
+.FeaturedJobs .carousel-caption img{
+    width: 50px;
+    height: max-content;
+}
+.FeaturedJobs .carousel-control-next,.FeaturedJobs .carousel-control-prev{
+    position: static;
+    background-color: #f1f2f4;
+    padding: 10px 0;
+}
+.FeaturedJobs .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%7c8185' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.FeaturedJobs .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%7c8185' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  }
+    
+.featured__controls{
+    border-top: 1px solid #ededed;
+}
