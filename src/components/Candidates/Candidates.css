@@ -27,3 +27,9 @@
 .Candidates .alice-carousel__next-btn-item{
     right: -40px;
 }
+
+@media(max-width: 700px){
+    .alice-carousel__next-btn-item,.alice-carousel__prev-btn-item{
+        display: none !important;
+    }
+}

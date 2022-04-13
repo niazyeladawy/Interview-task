@@ -31,11 +31,11 @@ const StartSearching = () => {
                     <div className="accordion" id="contractaccordion">
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
-                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     Contract Type
                                 </button>
                             </h2>
-                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#contractaccordion">
+                            <div id="collapseOne" className="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#contractaccordion">
                                 <div className="accordion-body">
                                     <div className="form-check">
                                         <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
@@ -69,11 +69,11 @@ const StartSearching = () => {
                     <div className="accordion" id="specialismaccordion">
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
-                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Specialisms
                                 </button>
                             </h2>
-                            <div id="collapseTwo" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#specialismaccordion">
+                            <div id="collapseTwo" className="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#specialismaccordion">
                                 <div className="accordion-body">
                                     <div className="form-check">
                                         <input className="form-check-input" type="radio" name="RadioDefault" id="RadioDefault1" />
